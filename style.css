@@ -153,12 +153,12 @@ p {
     display: inline-block;
 	display: block;
 	height: 40%;
-    
+
 }
 
 .theory__philosophers__title img {
 	display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
 	margin-top: 25px;
 	height: 70%;
 }
@@ -202,6 +202,56 @@ p {
     color: #ccf;
    }
 
+ .dict__list {
+	 	position: relative;
+	  margin: 0 auto;
+	 }
+
+ .dict__list ul {
+	 	position: absolute;
+		margin-top: -35px;
+		transform: translateX(-50%);
+		left: 50%;
+		width: 500px;
+	 }
+
+	.dict__list li {
+	 	float:left;
+		column-count: 2;
+	 }
+
+	 .dict__list a {
+	 	text-transform: uppercase;
+	 	text-decoration: none;
+	 	font-weight: normal;
+	 	color: black;
+	 	transition: background .1s linear;
+	 }
+
+	.dict__list a:hover {
+	  color: #ccf;
+	 }
+
+	.dict__philosophers__text {
+				position: relative;
+				height: 20%;
+				font-family: 'Amatic SC', cursive;
+				font-weight: 900;
+				font-size: 30px;
+				font-weight: normal;
+				text-align: center;
+	 }
+
+	.dict_text {
+				position: relative;
+				margin-top: 0px;
+				height: 20%;
+				font-family: 'Amatic SC', cursive;
+				font-size: 45px;
+				font-weight: normal;
+				text-align: center;
+	 }
+
 .theory__philosophers__text {
 	position: relative;
 	margin-top: 320px;
@@ -232,8 +282,16 @@ p {
 
 .img_description {
 	display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
     margin-top: 20px;
 	width: 73%;
 	height: 73%;
+}
+
+.dict_picture {
+	display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+	width: 65%;
+	height: 65%;
 }
