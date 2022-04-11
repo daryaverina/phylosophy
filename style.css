@@ -67,7 +67,7 @@ p {
 }
 
 .intro__title {
-	margin: 0;
+	margin: 0 auto;
 	font-family: 'Amatic SC', cursive;
 	font-size: 70px;
 	font-weight: normal;
@@ -116,7 +116,6 @@ p {
 .btn--red:hover {
 	background-color: #DCDCDC;
 }
-
 /*=============Main============*/
 .main {
 	width: 100%;
@@ -223,8 +222,8 @@ p {
 .base__decoration a:hover {
     color: #c33;
  }
-/*=============Theory============*/
 
+/*=============Theory============*/
 
 .theory {
 	display: flex;
@@ -246,8 +245,7 @@ p {
 	position: relative;
     display: inline-block;
 	display: block;
-	height: 40%;
-    
+	height: 40%; 
 }
 
 .theory__philosophers__title img {
@@ -270,7 +268,7 @@ p {
 .theory__list {
 	position: relative;
     margin: 0 auto;
-    margin-top: -45px;
+    margin-top: -65px;
     width: 100%;
 }
 
@@ -295,17 +293,18 @@ p {
 
  .theory__list a:hover {
     color: #ccf;
-   }
+}
 
 .theory__philosophers__text {
 	position: relative;
-	margin-top: 320px;
+	margin-top: 365px;
 	height: 20%;
 	font-family: 'Amatic SC', cursive;
 	font-size: 45px;
 	font-weight: normal;
 	text-align: center;
 }
+
 
 /*======Description-theory======*/
 
@@ -316,7 +315,7 @@ p {
 }
 
 .theory__description__text {
-	margin-top: 25px;
+	margin-top: 40px;
 	height: 20%;
 	font-family: 'Amatic SC', cursive;
 	font-size: 45px;
@@ -330,6 +329,147 @@ p {
     margin-top: 20px;
 	width: 68%;
 	height: 73%;
+}
+
+/*=============Theory_ancient============*/
+
+.theory__ancient {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.theory__title {
+	margin: 0 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 75px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.theory__ancient__text {
+	font-family: 'Amatic SC', cursive;
+	font-size: 45px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.theory__ancient p {
+	margin: 0 auto;
+}
+
+.theory__ancient__information {
+	display: flex;
+	flex-direction: row;
+	height: 50%;
+}
+
+.theory__ancient__list {
+	position: relative;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 50%;
+}
+
+.theory__ancient__list ul {
+	position: absolute;
+    left: 65%;
+    transform: translateX(-50%);
+    list-style-type : decimal;
+}
+
+.theory__ancient__list a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: normal;
+	color: black;
+	transition: background .1s linear;
+}
+
+ .theory__ancient__list a:hover {
+    color: #ccf;
+}
+
+.theory__ancient__img {
+	width: 45%;
+	height: 430px;
+}
+
+/*=============Theory_phylosopher============*/
+
+.theory__philosopher {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.theory__philosopher__title {
+	margin: 0 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 80px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.theory__philosopher__date {
+	margin: 0 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.theory__philosopher__img {
+	display:block;
+	margin:0 auto;
+	height: 35%;
+	width: 35%;
+}
+
+.theory__philosopher__razd {
+	display:block;
+	margin:0 auto;
+	width: 30%;
+	padding-top: 10px;
+}
+
+.theory__biography__title {
+	margin: 0 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.theory__biography__text {
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin:0 10% 0 10%;
+	padding-top: 15px;
+}
+
+.theory__biography__title__mini {
+	margin: 0 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.theory__biography__list {
+    font-family: 'Open Sans', sans-serif;
+    margin:0 10% 0 10%;
+	font-size: 20px;
+}
+
+.theory__biography__list ul {
+    list-style-type : decimal;
 }
 
 .dict_picture {
@@ -361,3 +501,4 @@ p {
 	font-weight:900;
 	font-size: 25px;
 }
+
