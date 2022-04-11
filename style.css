@@ -30,10 +30,7 @@ p {
 	text-align: center;
 	width: 100%;
 	height: 60px;
-	max-width: 1470px;
 	background-color: #DCDCDC;
-
-
 }
 
 /*==================Nav====================*/
@@ -42,8 +39,6 @@ p {
 	align-items: center;
 	font-size: 35px;
 	padding-top: 7px;
-
-
 }
 
 .nav__link {
@@ -55,8 +50,6 @@ p {
 	transition: opacity .1s;
 }
 
-
-
 .nav__link:hover {
 	opacity: 1;
 
@@ -65,7 +58,7 @@ p {
 
 /*==================Intro==================*/
 .intro {
-	height: 720px;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -83,7 +76,6 @@ p {
 
 .intro__inner {
 	width: 100%;
-	max-width: 970px;
 	margin: 0 auto;
 }
 
@@ -101,7 +93,9 @@ p {
 
 	border-radius: 3px;
 	cursor: pointer;
-	border-color: #808080;
+	border-color: black;
+	box-shadow: 1px 1px 5px black;
+
 
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
@@ -116,14 +110,14 @@ p {
 
 .btn--red {
 	background-color: white;
+	
 }
 
 .btn--red:hover {
 	background-color: #DCDCDC;
 }
 
-
-/*=============Theory============*/
+/*=============Main============*/
 .main {
 	width: 100%;
 	max-width: 1470px;
@@ -131,6 +125,106 @@ p {
 	display: flex;
 	flex-direction: column;
 }
+
+.main__title {
+	margin: 0 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 120px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.base {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	max-height: 590px;
+}
+
+/*========Main_information============*/
+.base__information {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-top: -15px;
+}
+
+.information__title {
+	margin: 0 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 90px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.information__title a {
+
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: normal;
+	color: black;
+	transition: background .1s linear;
+}
+
+.information__title a:hover {
+    color: #c33;
+ }
+
+.information__description {
+	margin: 0 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.information_paragraph {
+	margin: 0 auto;
+}
+
+/*========Main_decoration============*/
+
+.base__decoration {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.img__decoration {
+	position: relative;
+    display: inline-block;
+	display: block;
+    margin: 0 auto; 
+    margin-top: 20px;
+	margin-top: -15px;
+	width: 100%;
+	height: 100%;
+}
+
+.base__decoration span {
+	position: absolute;
+    font-size: 40px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 470px;
+    padding-left: 420px;
+}
+
+.base__decoration a {
+
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: normal;
+	color: black;
+	transition: background .1s linear;
+}
+
+.base__decoration a:hover {
+    color: #c33;
+ }
+/*=============Theory============*/
+
 
 .theory {
 	display: flex;
@@ -152,13 +246,13 @@ p {
 	position: relative;
     display: inline-block;
 	display: block;
-	height: 10%;
-	weight:40%;
+	height: 40%;
+    
 }
 
 .theory__philosophers__title img {
 	display: block;
-    margin: 0 auto;
+    margin: 0 auto; 
 	margin-top: 25px;
 	height: 70%;
 }
@@ -177,6 +271,7 @@ p {
 	position: relative;
     margin: 0 auto;
     margin-top: -45px;
+    width: 100%;
 }
 
 .theory__list ul {
@@ -202,56 +297,6 @@ p {
     color: #ccf;
    }
 
- .dict__list {
-	 	position: relative;
-	  margin: 0 auto;
-	 }
-
- .dict__list ul {
-	 	position: absolute;
-		margin-top: -35px;
-		transform: translateX(-50%);
-		left: 50%;
-		width: 500px;
-	 }
-
-	.dict__list li {
-	 	float:left;
-		column-count: 2;
-	 }
-
-	 .dict__list a {
-	 	text-transform: uppercase;
-	 	text-decoration: none;
-	 	font-weight: normal;
-	 	color: black;
-	 	transition: background .1s linear;
-	 }
-
-	.dict__list a:hover {
-	  color: #ccf;
-	 }
-
-	.dict__philosophers__text {
-				position: relative;
-				height: 20%;
-				font-family: 'Amatic SC', cursive;
-				font-weight: 900;
-				font-size: 30px;
-				font-weight: normal;
-				text-align: center;
-	 }
-
-	.dict_text {
-				position: relative;
-				margin-top: 0px;
-				height: 20%;
-				font-family: 'Amatic SC', cursive;
-				font-size: 45px;
-				font-weight: normal;
-				text-align: center;
-	 }
-
 .theory__philosophers__text {
 	position: relative;
 	margin-top: 320px;
@@ -261,7 +306,6 @@ p {
 	font-weight: normal;
 	text-align: center;
 }
-
 
 /*======Description-theory======*/
 
@@ -282,9 +326,9 @@ p {
 
 .img_description {
 	display: block;
-    margin: 0 auto;
+    margin: 0 auto; 
     margin-top: 20px;
-	width: 73%;
+	width: 68%;
 	height: 73%;
 }
 
