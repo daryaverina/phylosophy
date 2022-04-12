@@ -581,7 +581,7 @@ p {
 .test__title {
 	margin: 0 auto;
 	font-family: 'Amatic SC', cursive;
-	font-size: 80px;
+	font-size: 62px;
 	font-weight: normal;
 	text-align: center;
 	padding-top: 15px;
@@ -590,15 +590,16 @@ p {
 .test__razd {
 	display:block;
 	margin:0 auto;
-	width: 40%;
+	width: 35%;
 	padding-top: 10px;
 }
 
 .test__img {
 	display:block;
 	margin:0 auto;
-	height: 35%;
+	height: 30%;
 	width: 35%;
+	padding-top: 20px;
 }
 
 .test__question__text {
@@ -606,6 +607,7 @@ p {
 	font-family: 'Amatic SC', cursive;
 	font-size: 40px;
 	font-weight: normal;
+	text-align: center;
   }
 
 .test__answer__text {
@@ -616,3 +618,53 @@ p {
 	margin:0 3% 0 3%;
 	padding-top: 10px;
 }
+
+.test__buttons {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.test__button {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 40px;
+
+	border-radius: 3px;
+	cursor: pointer;
+	border-color: black;
+	box-shadow: 1px 1px 5px black;
+
+
+	font-family: 'Amatic SC', cursive;
+	font-size: 35px;
+	color: white;
+	background-color: #555555;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: normal;
+	margin:0 -6% 0 30%;
+}
+
+.test__result {
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	padding-top: 10px;
+	font-size: 50px;
+}
+
+input[type="text"] {
+	border: 1px solid #811e1e00;
+	border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-khtml-border-radius: 3px; 
+	background: #ffffff !important; 
+	outline: none; 
+	height: 50px; 
+	width: 60px; 
+	color: #3a3a3a;
+	font-size: 50px; 
+	font-family: 'Open Sans', sans-serif;
+	margin:0 -3% 0 0%;
+ }
