@@ -569,3 +569,50 @@ p {
 	width: 65%;
 	height: 65%;
 }
+
+/*=============Test============*/
+
+.test__philosopher {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.test__title {
+	margin: 0 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 80px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.test__razd {
+	display:block;
+	margin:0 auto;
+	width: 40%;
+	padding-top: 10px;
+}
+
+.test__img {
+	display:block;
+	margin:0 auto;
+	height: 35%;
+	width: 35%;
+}
+
+.test__question__text {
+	margin: 5 auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	font-weight: normal;
+  }
+
+.test__answer__text {
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin:0 3% 0 3%;
+	padding-top: 10px;
+}
