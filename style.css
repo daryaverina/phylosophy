@@ -607,7 +607,8 @@ p {
 	font-family: 'Amatic SC', cursive;
 	font-size: 40px;
 	font-weight: normal;
-	text-align: center;
+	text-align: left;
+	margin:0 15% 0 18%;
   }
 
 .test__answer__text {
@@ -615,7 +616,7 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-weight: normal;
-	margin:0 5% 0 32%;
+	margin:0 15% 0 20%;
 	padding-top: 10px;
 	text-align: left;
 }
