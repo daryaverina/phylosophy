@@ -110,7 +110,7 @@ p {
 
 .btn--red {
 	background-color: white;
-	
+
 }
 
 .btn--red:hover {
@@ -193,7 +193,7 @@ p {
 	position: relative;
     display: inline-block;
 	display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
     margin-top: 20px;
 	margin-top: -15px;
 	width: 100%;
@@ -245,12 +245,12 @@ p {
 	position: relative;
     display: inline-block;
 	display: block;
-	height: 40%; 
+	height: 40%;
 }
 
 .theory__philosophers__title img {
 	display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
 	margin-top: 25px;
 	height: 70%;
 }
@@ -325,7 +325,7 @@ p {
 
 .img_description {
 	display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
     margin-top: 20px;
 	width: 68%;
 	height: 73%;
@@ -370,7 +370,7 @@ p {
 	position: relative;
     margin: 0 auto;
     padding-top: 30px;
-    width: 50%;
+    width: 60%;
 }
 
 .theory__ancient__list ul {
@@ -472,6 +472,16 @@ p {
     list-style-type : decimal;
 }
 
+.theory__biography__list_points {
+    font-family: 'Open Sans', sans-serif;
+    margin:0 10% 0 10%;
+	font-size: 20px;
+}
+
+.theory__biography__list_points ul {
+    list-style-type : disc;
+}
+
 .dict_picture {
 	display: block;
     margin: 0 auto;
@@ -501,4 +511,3 @@ p {
 	font-weight:900;
 	font-size: 25px;
 }
-
